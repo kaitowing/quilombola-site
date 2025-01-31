@@ -21,7 +21,7 @@ function App() {
 
           <div className="download-buttons">
             <a
-              href="#android-download"
+              href="/quilombola-site/Quilombytes.apk "
               className="download-btn android"
               aria-label="Baixar para Android"
             >
