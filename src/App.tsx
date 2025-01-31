@@ -7,7 +7,7 @@ function App() {
       <header className="hero-section">
         <div className="hero-content">
           <img
-            src="/icon.webp"
+            src="src/assets/icon.webp"
             alt="Icone Quilombola"
             className="rounded-img"
           />
@@ -36,28 +36,28 @@ function App() {
         <div className="screenshots-container">
           <div className="screenshot-item">
             <img
-              src="/home-screen.jpeg"
+              src="src/assets/home-screen.jpeg"
               alt="Tela inicial do app Quilombytes"
               className="screenshot-img"
             />
           </div>
           <div className="screenshot-item">
             <img
-              src="/health-info.jpeg"
+              src="src/assets/health-info.jpeg"
               alt="Tela de informações de saúde"
               className="screenshot-img"
             />
           </div>
           <div className="screenshot-item">
             <img
-              src="/culture-section.jpeg"
+              src="src/assets/culture-section.jpeg"
               alt="Seção cultural do aplicativo"
               className="screenshot-img"
             />
           </div>
           <div className="screenshot-item">
             <img
-              src="/events-calendar.jpeg"
+              src="src/assets/events-calendar.jpeg"
               alt="Calendário de eventos quilombolas"
               className="screenshot-img"
             />
