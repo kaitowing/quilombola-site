@@ -29,6 +29,12 @@ function App() {
               Download
             </a>
           </div>
+          <p className="disclaimer">
+            Observação: Se o seu dispositivo mostrar um alerta sobre possível
+            arquivo malicioso, não se preocupe. Isso acontece porque você está
+            instalando um aplicativo fora da Google Play Store, mas o arquivo é
+            seguro.
+          </p>
         </div>
       </header>
 
