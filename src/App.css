@@ -262,17 +262,6 @@
   border-radius: 15px;
 }
 
-@media (max-width: 768px) {
-  .screenshots-container {
-    grid-template-columns: 1fr;
-    max-width: 500px;
-  }
-
-  .screenshot-img {
-    height: 350px;
-  }
-}
-
 @media (min-width: 1200px) {
   .screenshots-container {
     grid-template-columns: repeat(4, 1fr);
