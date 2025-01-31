@@ -60,6 +60,12 @@
   transition: transform 0.3s ease;
 }
 
+.rounded-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
 .download-btn:hover {
   transform: translateY(-3px);
 }
@@ -149,12 +155,6 @@
     font-size: 4rem;
     max-width: 1000px;
     margin: 0 auto 2rem;
-  }
-
-  .rounded-img{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
   }
 
   .hero-content p {
