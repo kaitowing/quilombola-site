@@ -1,16 +1,17 @@
 import { FaAndroid, FaHeart, FaBook, FaInfoCircle } from "react-icons/fa";
 import "./App.css";
+import icon from "/src/assets/icon.webp";
+import home_screen from "/src/assets/home-screen.jpeg";
+import health_info from "/src/assets/health-info.jpeg";
+import culture_section from "/src/assets/culture-section.jpeg";
+import events_calendar from "/src/assets/events-calendar.jpeg";
 
 function App() {
   return (
     <div className="App">
       <header className="hero-section">
         <div className="hero-content">
-          <img
-            src="src/assets/icon.webp"
-            alt="Icone Quilombola"
-            className="rounded-img"
-          />
+          <img src={icon} alt="Icone Quilombola" className="rounded-img" />
           <h1>Quilombytes</h1>
           <p>
             Aplicativo com guia de políticas públicas para Quilombolas de
@@ -36,28 +37,28 @@ function App() {
         <div className="screenshots-container">
           <div className="screenshot-item">
             <img
-              src="src/assets/home-screen.jpeg"
+              src={home_screen}
               alt="Tela inicial do app Quilombytes"
               className="screenshot-img"
             />
           </div>
           <div className="screenshot-item">
             <img
-              src="src/assets/health-info.jpeg"
+              src={health_info}
               alt="Tela de informações de saúde"
               className="screenshot-img"
             />
           </div>
           <div className="screenshot-item">
             <img
-              src="src/assets/culture-section.jpeg"
+              src={culture_section}
               alt="Seção cultural do aplicativo"
               className="screenshot-img"
             />
           </div>
           <div className="screenshot-item">
             <img
-              src="src/assets/events-calendar.jpeg"
+              src={events_calendar}
               alt="Calendário de eventos quilombolas"
               className="screenshot-img"
             />
