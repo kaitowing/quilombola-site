@@ -14,8 +14,9 @@ function App() {
           <img src={icon} alt="Icone Quilombola" className="rounded-img" />
           <h1>Quilombytes</h1>
           <p>
-            Aplicativo com guia de políticas públicas para Quilombolas do Rio Grande do sul para ampliar o
-            acesso aos direitos de cidadania, saúde, cultura e equidade de gênero
+            Aplicativo com guia de políticas públicas para Quilombolas do Rio
+            Grande do sul para ampliar o acesso aos direitos de cidadania,
+            saúde, cultura e equidade de gênero
           </p>
 
           <div className="download-buttons">
